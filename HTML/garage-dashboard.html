@@ -8,6 +8,7 @@
     <title>Garage dashboard</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/garage-dashboard.css">
+    <script src="https://use.fontawesome.com/e81b7a0e01.js"></script>
 </head>
 
 <body>
@@ -60,75 +61,201 @@
                     </div>
                 </div>
             </div>
-            <div id="service-info" class="col-lg-6 wrapper">
-                <div class="service-info-items row">
-                    <div class="col-lg-16 padding-zero">
-                        <h5 id="service-info-text">Service info:</h5>
+            <div class="col-lg-11 big-section padding-zero">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div id="service-info" class="service-info-items wrapper">
+                            <div class="col-lg-16 padding-zero">
+                                <h5 id="service-info-text">Service info:</h5>
+                            </div>
+                            <div class="col-lg-16 line">
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <br>
+                                <h6 class="service-info-sub-menues">Vehicle:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <br>
+                                <h6 class="service-info-sub-values">BMW, 3(E90), 320 d -130kW;
+                                    <br>
+                                    <br> 1995, Sedan 4-door; Diesel</h6>
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <br>
+                                <h6 class="service-info-sub-menues">TypeNr:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <br>
+                                <h6 class="service-info-sub-values">N / A
+                            </div>
+                            <div class="col-lg-16 line">
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <h6 class="service-info-sub-menues">VIN:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <h6 class="service-info-sub-values">WBA42034243908
+                            </div>
+                            <div class="col-lg-16 line">
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <h6 class="service-info-sub-menues">First Registration:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <h6 class="service-info-sub-values">06.07.2009.
+                            </div>
+                            <div class="col-lg-16 line">
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <h6 class="service-info-sub-menues">Kunde:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <h6 class="service-info-sub-values">Aleksandar Stefanovic
+                            </div>
+                            <div class="col-lg-16 line">
+                            </div>
+                            <div class="col-lg-6 padding-zero">
+                                <h6 class="service-info-sub-menues">Fahlestung:</h6>
+                            </div>
+                            <div class="col-lg-10">
+                                <h6 class="service-info-sub-values">175000km
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-16 line">
+                    <div id="chat" class="col-lg-8 wrapper">
                     </div>
-                    <div class="col-lg-6 padding-zero">
+                </div>
+                <div class="row">
+                    <br>
+                    <div id="table1" class="col-lg-16 wrapper">
+                        <div class="row table-head ">
+                            <div class=" col-lg-15">
+                                <h6>Ersatzteil(e)</h6>
+                            </div>
+                            <div class="col-lg-1">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Telle Nr</th>
+                                    <th>Bezechujung</th>
+                                    <th>Qt.</th>
+                                    <th>Price per unit</th>
+                                    <th>Preis</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1232132132321</td>
+                                    <td>111123432442</td>
+                                    <td>1x.</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </td>
+                                    <td>92 CHF</td>
+                                </tr>
+                                <tr>
+                                    <td>223123123123123</td>
+                                    <td>32432212342343</td>
+                                    <td>1x.</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </td>
+                                    <td>48 CHF</td>
+                                </tr>
+                                <tr>
+                                    <td>2312312312312312</td>
+                                    <td>234234232342343</td>
+                                    <td>1x.</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </td>
+                                    <td>35 CHF</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <th>Total Ersatzteil(s)</th>
+                                    <th>152 CHF</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-16">
                         <br>
-                        <h6 class="service-info-sub-menues">Vehicle:</h6>
                     </div>
-                    <div class="col-lg-10">
-                        <br>
-                        <h6 class="service-info-sub-values">BMW, 3(E90), 320 d -130kW;
-                            <br>
-                            <br> 1995, Sedan 4-door; Diesel</h6>
-                    </div>
-                    <div class="col-lg-6 padding-zero">
-                        <br>
-                        <h6 class="service-info-sub-menues">TypeNr:</h6>
-                    </div>
-                    <div class="col-lg-10">
-                        <br>
-                        <h6 class="service-info-sub-values">N / A
-                    </div>
-                    <div class="col-lg-16 line">
-                    </div>
-                    <div class="col-lg-6 padding-zero">
-                        <h6 class="service-info-sub-menues">VIN:</h6>
-                    </div>
-                    <div class="col-lg-10">
-                        <h6 class="service-info-sub-values">WBA42034243908
-                    </div>
-                    <div class="col-lg-16 line">
-                    </div>
-                    <div class="col-lg-6 padding-zero">
-                        <h6 class="service-info-sub-menues">First Registration:</h6>
-                    </div>
-                    <div class="col-lg-10">
-                        <h6 class="service-info-sub-values">06.07.2009.
-                    </div>
-                    <div class="col-lg-16 line">
-                    </div>
-                    <div class="col-lg-6 padding-zero">
-                        <h6 class="service-info-sub-menues">Kunde:</h6>
-                    </div>
-                    <div class="col-lg-10">
-                        <h6 class="service-info-sub-values">Aleksandar Stefanovic
-                    </div>
-                    <div class="col-lg-16 line">
-                    </div>
-                    <div class="col-lg-6 padding-zero">
-                        <h6 class="service-info-sub-menues">Fahlestung:</h6>
-                    </div>
-                    <div class="col-lg-10">
-                        <h6 class="service-info-sub-values">175000km
+                    <div id="table2" class="col-lg-16 wrapper">
+                        <div class="row table-head ">
+                            <div class=" col-lg-15">
+                                <h6>Oil</h6>
+                            </div>
+                            <div class="col-lg-1">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td class="small-table-letters">Manufacture recommenedation</td>
+                                    <td class="small-table-letters">Manufacture recommenedation</td>
+                                    <td class="small-table-letters">Carhelper <span id="transparent-span" >h</span>   chosen</td>
+                                </tr>
+                                <tr>
+                                    <th>Oil Part Nr</th>
+                                    <th>Viscosity</th>
+                                    <th>Specification</th>
+                                    <th>Your oil</th>
+                                    <th>Qt.</th>
+                                    <th>Inputi</th>
+                                    <th>Preis</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1232132132321</td>
+                                    <td>5W30, 10W20 </td>
+                                    <td>5W30, 10W20 </td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </td>
+                                    <td>6,2l</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </td>
+                                    <td>35,2 CHF</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <th>Total oil</th>
+                                    <th>135,2 CHF</th>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-            <div id="chat" class="col-lg-5 wrapper">
-
-            </div>
-        </div>
-        <div class="row">
-            
         </div>
     </div>
-
 </body>
+
 
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>

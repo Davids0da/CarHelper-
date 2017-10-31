@@ -3,6 +3,7 @@ body {
     background: #FAFCFB;
     color: #245558;
     font-weight: 400;
+    height: 1000px;
 }
 h4 {
     font-weight: 400;
@@ -48,10 +49,8 @@ ul.nav a:hover {
 }
 /* Services Box */
 #services-box {
-    height: 1000px;
     background: white;
-    margin-left: 15px;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 .form-control {
     border: 0;
@@ -74,7 +73,7 @@ ul.nav a:hover {
 #service-info {
     height: 400px;
     background: white;
-    margin-right: 10px;
+
 }
 .service-info-items {
         padding-left: 20px;
@@ -94,13 +93,26 @@ ul.nav a:hover {
 #chat {
     height: 400px;
     background: white;
+    float: right;
+    margin-left: -50px;
+    
+}
+.big-section {
+    float: right;
+    margin-right: 40px;
 }
 /* Wrapper class */
 .wrapper { 
- 
     border-radius: 10px;
     border: 1px solid lightblue;
+    overflow: hidden !important;
 }
+
+/* Table wrapper class */
+.table-wrapper { 
+       border-radius: 10px;
+       border: 1px solid lightblue;
+   }
 /* Padding class */
 .padding-zero { 
     padding: 0;
@@ -109,4 +121,24 @@ ul.nav a:hover {
 #title-container {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+/* Table customize */
+.fa {
+    padding: 10px;
+}
+.table-head {
+ background-color: #E6ECEC;
+}
+input{
+    width: 100px !important;
+    height: 25px !important;
+    border: 1px solid #355155 !important;
+    border-radius: 4px !important;
+}
+.small-table-letters {
+    font-size: 12px;
+    width: 20px;
+}
+#transparent-span{
+    color: transparent;
 }
