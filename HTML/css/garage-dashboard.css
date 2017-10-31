@@ -1,11 +1,16 @@
 body {
     padding-top: 10px;
     background: #FAFCFB;
+    color: #245558;
+    font-weight: 400;
+}
+h4 {
+    font-weight: 400;
 }
 
 /* Header */
 #header-text {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 10px;
     border-left-style: solid;
     border-width: 1px;
@@ -24,6 +29,9 @@ li:hover{
 .nav>li>a:focus, .nav>li>a:hover {
     background: transparent;
 }
+.navbar-nav {
+    float: right;
+}
 ul.nav a:hover { 
     color: grey !important; 
 }
@@ -32,7 +40,7 @@ ul.nav a:hover {
     padding-bottom: 0;
 }
 /* Breaking line */
-#line{
+.line{
     border-bottom-style: solid;
     border-width: 1px;
     opacity: 0.1;
@@ -40,14 +48,16 @@ ul.nav a:hover {
 }
 /* Services Box */
 #services-box {
-    height: 600px;
+    height: 1000px;
     background: white;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 .form-control {
     border: 0;
     padding: 0;
 }
-#service-list-item {
+#service-list-item , #services-box-text {
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -60,8 +70,43 @@ ul.nav a:hover {
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     background-color: lightgray;
 }
+/* Services info box */
+#service-info {
+    height: 400px;
+    background: white;
+    margin-right: 10px;
+}
+.service-info-items {
+        padding-left: 20px;
+        padding-right: 20px;
+}
+#service-info-text {
+    font-weight: 400;
+    margin-top:20px;
+}
+.service-info-sub-menues {
+    font-weight: 300;
+}
+.service-info-sub-values {
+    font-weight: 500;
+}
+/* Chat box */
+#chat {
+    height: 400px;
+    background: white;
+}
 /* Wrapper class */
 .wrapper { 
+ 
     border-radius: 10px;
     border: 1px solid lightblue;
+}
+/* Padding class */
+.padding-zero { 
+    padding: 0;
+   }
+/* Title container */
+#title-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
