@@ -17,8 +17,8 @@ h4 {
     border-width: 1px;
     padding-left: 10px;
 }
-a {
-    color: black !important;
+.navbar-nav a {
+    color: #476369 !important;
     text-decoration: none;
 }
 #logo {
@@ -48,6 +48,9 @@ ul.nav a:hover {
     color: black;
 }
 /* Services Box */
+.list-group a {
+    color: #476369 !important;
+}
 #services-box {
     background: white;
     margin-left: 10px;
@@ -67,7 +70,7 @@ ul.nav a:hover {
     border: 0;
 }
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    background-color: lightgray;
+    background-color: #E7ECEF;
 }
 /* Services info box */
 #service-info {
@@ -108,11 +111,6 @@ ul.nav a:hover {
     overflow: hidden !important;
 }
 
-/* Table wrapper class */
-.table-wrapper { 
-       border-radius: 10px;
-       border: 1px solid lightblue;
-   }
 /* Padding class */
 .padding-zero { 
     padding: 0;
@@ -141,4 +139,28 @@ input{
 }
 #transparent-span{
     color: transparent;
+}
+#table1 , #table2 , #table3 , #table4 , #table5 , #table6 , #table7 , #list-box{
+margin-left: 34px;
+}
+.table , .list-group{
+    margin-bottom: 0px;
+}
+.borderless {
+    border: 0 !important;
+}
+/* List-group */
+.list-group-span {
+    float: right;
+}
+.list-group-2 a {
+    color: #37555A !important;
+    font-weight: 500;
+}
+.list-group-item-2.active, .list-group-item-2.active:focus, .list-group-item-2.active:hover {
+    background-color: #37555A;
+}
+.list-group-2 .active {
+    color: white !important;
+    font-weight: 500;
 }
