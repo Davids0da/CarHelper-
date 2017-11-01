@@ -24,6 +24,13 @@ h4 {
 #logo {
     width:150px;
 }
+.navbar-nav span{
+        float: right;
+        padding:1px 7px 1px 7px;
+        color: white;
+        border-radius: 150px;
+        margin-left: 5px;
+}
 li:hover{
     background: transparent;
 }
@@ -48,6 +55,15 @@ ul.nav a:hover {
     color: black;
 }
 /* Services Box */
+#list-tab a {
+    font-weight: 300;
+}
+#list-tab span {
+    float: right;
+    padding:1px 5px 1px 5px;
+    color: white;
+    border-radius: 5px;
+}
 .list-group a {
     color: #476369 !important;
 }
@@ -110,6 +126,17 @@ ul.nav a:hover {
     border: 1px solid lightblue;
     overflow: hidden !important;
 }
+/* Button-wrapper class */
+.btn-wrapper { 
+    border-radius: 10px;
+    border: 1px solid #39555B;
+    overflow: hidden !important;
+    padding: 6px;
+}
+.btn-wrapper h5 { 
+    font-weight: 400;
+}
+
 
 /* Padding class */
 .padding-zero { 
@@ -165,3 +192,4 @@ margin-left: 34px;
     font-weight: 500;
 }
 /* Comment box */
+
