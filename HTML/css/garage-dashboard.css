@@ -140,7 +140,7 @@ input{
 #transparent-span{
     color: transparent;
 }
-#table1 , #table2 , #table3 , #table4 , #table5 , #table6 , #table7 , #list-box{
+#table1 , #table2 , #table3 , #table4 , #table5 , #table6 , #table7 , #list-box , #comment-box-name , #comment-box-input-field{
 margin-left: 34px;
 }
 .table , .list-group{
@@ -164,3 +164,4 @@ margin-left: 34px;
     color: white !important;
     font-weight: 500;
 }
+/* Comment box */
